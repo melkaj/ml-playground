@@ -7,15 +7,22 @@ AT THE TIME OF WRITING THIS, THERE SHOULD BE AN ENVIRONMENT CALLED handson_ml_en
 THIS ENVIRONMENT I AM USING FOR THE MACHINE LEARNING TEXTBOOK CHAPTER 2
 (And probably most other chapters, will probably specify here)
 
-Copy files from one place to another
-cp source destination
-EX:
-cp "./Chapter_2/README.md" readme.md
 
-This command will copy the readme file in a directory one folder deeper (called Chapter_2) and copy it into the current directory you are in - and it will be name 'readme.md' instead of 'README.md'.
 
-xdg-open "anything"
-I used this to open pdfs or file explorers.
-EX:
-xdg-open Handson.pdf
+# Common Terminal Commands
+
+Copy file from one place to another
+Command| cp source destination
+EX|      cp "./Chapter_2/README.md" readme.md
+
+
+Open anything from the terminal
+Command| xdg-open "anything"
+EX|      xdg-open Handson.pdf
 This will open a pdf named "Handson.pdf" 
+
+
+Move a file/folder (Or rename the file/folder)
+Command| mv source destination
+EX|      mv "/Chapter_2/chapter_2.py" "/Chapter_2/chapter_2_reg_project.py"
+renames the python file. 
